@@ -101,9 +101,9 @@ const page = () => {
                   <h1 className='text-lg'><span className='font-bold'>Fund House: </span> {funds[id].fund_house}</h1>
                   <h1 className='text-lg'><span className='font-bold'>Category: </span> {funds[id].category}</h1>
                   <br />
-                  <h1 className='text-lg'><span className='font-bold'>1 Year Return: </span> {funds[id].one_year_return}</h1>
-                  <h1 className='text-lg'><span className='font-bold'>3 Year Return: </span> {funds[id].three_year_return}</h1>
-                  <h1 className='text-lg'><span className='font-bold'>5 Year Return: </span> {funds[id].five_year_return}</h1>
+                  <h1 className='text-lg'><span className='font-bold'>1 Year Return: </span> {funds[id].one_year_return}%</h1>
+                  <h1 className='text-lg'><span className='font-bold'>3 Year Return: </span> {funds[id].three_year_return}%</h1>
+                  <h1 className='text-lg'><span className='font-bold'>5 Year Return: </span> {funds[id].five_year_return}%</h1>
                   <h1 className='text-lg'><span className='font-bold'>Expense Ratio: </span> {funds[id].expense_ratio}</h1>
                   
                 </Grid2>
